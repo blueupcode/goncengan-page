@@ -1,0 +1,10 @@
+// Avatar
+@mixin avatar-variant($bg, $color: color-contrast($bg)) {
+  --#{$variable-prefix}avatar-bg: #{$bg};
+  --#{$variable-prefix}avatar-color: #{$color};
+}
+
+@mixin avatar-icon-variant($bg, $color: color-contrast($bg)) {
+  --#{$variable-prefix}avatar-addon-icon-bg: #{$bg};
+  --#{$variable-prefix}avatar-addon-icon-color: #{$color};
+}

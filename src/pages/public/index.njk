@@ -1,0 +1,27 @@
+{% extends "components/template.njk" %}
+
+{% set page_title = "Goncengan - Siap Goncengin Kamu" %}
+{% set enable_container_fluid = true %}
+
+{% block content %}
+  <div class="row g-0 align-items-center justify-content-center h-100">
+    <div class="col-sm-8 col-md-6 col-lg-4 col-xl-3">
+
+      <!-- BEGIN Portlet -->
+      <div class="portlet">
+        <div class="portlet-body">
+          <div class="text-center my-4">
+            <img class="img-fluid" src="{{ 'assets/images/logo.png' | url }}" alt="Goncengan" />
+          </div>
+          <div class="vstack gap-2 my-3">
+            <h1 class="text-center text-level-3 fw-bold">Goncengan</h1>
+            <h2 class="text-center text-level-1 fw-normal">#SiapGoncenginKamu</h2>
+          </div>
+          <a href="#" type="button" class="btn btn-primary btn-lg rounded-pill w-100">Unduh</a>
+        </div>
+      </div>
+      <!-- END Portlet -->
+
+    </div>
+  </div>
+{% endblock %}
